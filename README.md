@@ -73,4 +73,4 @@ Gets [IE virtual machines](https://www.modern.ie/en-us/virtualization-tools#down
 This is my _fairly opinionated, specific way_ of setting up Macs for myself. Use it if you want but don’t blame me if anything goes wrong :sunglasses:
 
 # License
-Licensed under the MIT license: [http://danielfurze.mit-license.org](http://danielfurze.mit-license.org)
+What license!? [WTFPL](http://www.wtfpl.net).
