@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Install command-line tools using Homebrew
 
 # Install Homebrew
@@ -10,7 +8,6 @@ sudo xcodebuild -license
 # Install Git
 echo Installing Git…
 brew install git
-brew install git-extras
 brew install git-flow
 brew install git-lfs
 

@@ -9,6 +9,3 @@ cp init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Tex
 cp init/Package\ Control.sublime-settings ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 # Copy Sublime Text key bindings
 cp init/Default\ (OSX).sublime-keymap ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
-
-# Install vagrant plugins
-vagrant plugin install vagrant-hostsupdater
