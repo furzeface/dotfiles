@@ -7,14 +7,10 @@ echo Installing Homebrew \(gets Xcode cli developer tools too\)…
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 sudo xcodebuild -license
 
-# Install some utilities
-brew install wget --with-iri
-brew install lynx
-
 # Install Git
 echo Installing Git…
 brew install git
-brew install git-extras # Debating whether this is that useful…
+brew install git-extras
 brew install git-flow
 brew install git-lfs
 
@@ -24,9 +20,6 @@ brew install node
 
 echo Installing Imagemagick…
 brew install imagemagick
-
-# echo Installing MongoDB…
-brew install mongodb
 
 # Install Brew Cask for managing other apps
 echo Installing Brew Cask…
