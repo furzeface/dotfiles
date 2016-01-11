@@ -22,6 +22,7 @@ alias ga="git add -A"
 alias gb="git branch "
 alias gc="git commit -m"
 alias gd="git diff"
+alias gl="git log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short"
 alias go="git checkout "
 
 # hacks to show/hide hidden/dot files
