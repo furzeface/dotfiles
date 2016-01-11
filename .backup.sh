@@ -11,7 +11,7 @@ cd;
 mkdir -p .dotfile_backups
 
 # For each file in this repo, mv to ~/.dotfile_backups
-for file in .{aliases,bash_profile,bashrc,brew.sh,cask.sh,curlrc,editorconfig,exports,functions,gitattributes,gitconfig,gitignore,gitrepos.sh,hushlogin,init.sh,mkdir.sh,npm.sh,osx.sh,update-repos.sh,vms.sh}; do
+for file in .{aliases,bash_profile,bashrc,brew.sh,cask.sh,editorconfig,exports,functions,gitattributes,gitconfig,gitignore,gitrepos.sh,init.sh,mkdir.sh,npm.sh,osx.sh,update-repos.sh}; do
 	if [ -f "$file" ];
 		then echo "$file exists, backing up…";
 			 mv "$file" .dotfile_backups;
