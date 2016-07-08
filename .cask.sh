@@ -28,13 +28,13 @@ brew cask install --appdir="/Applications" textwrangler
 # Additional apps
 echo Installing some additional apps…
 brew cask install --appdir="/Applications" appcleaner
+brew cask install --appdir="/Applications" gitify
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" spotify
 brew cask install --appdir="/Applications" tunnelbear
 brew cask install --appdir="/Applications" utorrent
 brew cask install --appdir="/Applications" vlc
-
 # cleanup
 echo Cleaning up…
 brew cleanup --force
