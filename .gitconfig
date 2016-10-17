@@ -3,6 +3,8 @@
 	email = daniel@furzeface.com
 [push]
 	default = simple
+[core]
+	editor = vim
 [alias]
 	a = add -A
 	b = branch
@@ -15,3 +17,7 @@
 	l = log --graph --all
 	pl = pull
 	ps = push
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
