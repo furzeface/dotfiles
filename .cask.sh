@@ -13,7 +13,9 @@ brew cask install --appdir="/Applications" spectacle
 # Browsers
 echo Installing browsers…
 brew cask install --appdir="/Applications" firefox
+brew cask install --appdir="/Applications" firefox-nightly
 brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" google-chrome-canary
 
 # Development apps
 echo Installing dev apps…
@@ -24,11 +26,12 @@ brew cask install --appdir="/Applications" imageoptim
 brew cask install --appdir="/Applications" sourcetree
 brew cask install --appdir="/Applications" sublime-text3
 brew cask install --appdir="/Applications" textwrangler
+brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" vagrant-manager
 
 # Additional apps
 echo Installing some additional apps…
 brew cask install --appdir="/Applications" appcleaner
-brew cask install --appdir="/Applications" gitify
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" spotify
