@@ -21,6 +21,8 @@ brew cask install --appdir="/Applications" google-chrome-canary
 echo Installing dev apps…
 brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" atom
+brew cask install --appdir="/Applications" docker
+brew cask install --appdir="/Applications" docker-toolbox
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
