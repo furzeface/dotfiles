@@ -6,6 +6,7 @@
 echo Installing core apps…
 brew cask install --appdir="/Applications" caffeine
 brew cask install --appdir="/Applications" evernote
+brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-drive
 brew cask install --appdir="/Applications" iterm2
 brew cask install --appdir="/Applications" spectacle
