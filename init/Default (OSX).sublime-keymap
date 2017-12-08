@@ -1,4 +1,0 @@
-[
-	{"keys": ["ctrl+shift+f"], "command": "reindent"},
-	{ "keys": ["super+b"], "command": "toggle_side_bar" }
-]

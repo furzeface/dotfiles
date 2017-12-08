@@ -26,6 +26,11 @@ cd; curl -#L https://github.com/furzeface/dotfiles/tarball/master | tar -xzv --s
 bash .osx.sh
 ```
 
+#### Install [zsh](http://ohmyz.sh)
+```sh
+bash .zsh.sh
+```
+
 #### Install [Homebrew](http://brew.sh) then use it to install [Git](http://git-scm.com), [Node](http://nodejs.org) and [Brew Cask](http://caskroom.io)
 ```sh
 bash .brew.sh

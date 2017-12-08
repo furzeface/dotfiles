@@ -1,3 +1,5 @@
 # Create my standard directory structure
 
-mkdir -p ~/Sites/{GitHub}
+mkdir -p ~/Development/
+mkdir -p ~/Development/Clients
+mkdir -p ~/Development/GitHub

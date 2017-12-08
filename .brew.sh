@@ -13,9 +13,6 @@ brew install git-lfs
 # Install Node.js - this installs `npm` too, using the recommended installation method
 brew install node
 
-brew install imagemagick
-brew install heroku-toolbelt
-
 # Install Brew Cask for managing other apps
 brew install caskroom/cask/brew-cask
 
