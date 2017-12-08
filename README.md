@@ -46,7 +46,7 @@ Installs core productivity apps, dev tools, browsers, helper apps.
 ```sh
 bash .npm.sh
 ```
-Installs [Bower](http://bower.io), [Grunt](http://gruntjs.com) and [Yeoman](http://yeoman.io) globally.
+Installs some global Node packages.
 
 #### Create standard set of directories
 ```sh
