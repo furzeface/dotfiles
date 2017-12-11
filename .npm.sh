@@ -8,5 +8,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 npm adduser furzeface # change if you’re not me
 
-npm i gulp -g
+# Install useful global packages
+npm i grunt grunt-cli gulp -g
 npm i phantomjs -g
+npm i http-server -g
+
+# Install NVM
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.7/install.sh | bash
