@@ -202,6 +202,9 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 ## Avoids creation of .DS_Store and AppleDouble files.
 defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
+# Disable dictionary by default
+defaults write com.apple.symbolichotkeys AppleSymbolicHotKeys -dict-add 70 '<dict><key>enabled</key><false/></dict>'
+
 
 # Dock, Dashboard, and hot corners
 
