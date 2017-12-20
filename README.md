@@ -4,11 +4,11 @@
 
 
 ### Please note:
-> If you’re not me, you won’t want [`.gitconfig`](https://github.com/furzeface/dotfiles/blob/master/.gitconfig) to have my details, or [`.npm.sh`](https://github.com/furzeface/dotfiles/blob/master/.npm.sh#L9) to add me as a user.
+If you’re not me, you won’t want [`.gitconfig`](https://github.com/furzeface/dotfiles/blob/master/.gitconfig) to have my details, or [`.npm.sh`](https://github.com/furzeface/dotfiles/blob/master/.npm.sh#L9) to add me as a user.
 
-> You also probably don‘t want all my GitHub repos from [`.gitrepos.sh`](https://github.com/furzeface/dotfiles/blob/master/.gitrepos.sh#L14), so change that too.
+You also probably don‘t want all my GitHub repos from [`.gitrepos.sh`](https://github.com/furzeface/dotfiles/blob/master/.gitrepos.sh#L14), so change that too.
 
-> I suggest you [fork this repository](https://github.com/furzeface/dotfiles/fork) and amend these scripts accordingly, as well as adding anything extra you need and removing anything in particular you hate. :+1:
+I suggest you [fork this repository](https://github.com/furzeface/dotfiles/fork) and amend these scripts accordingly, as well as adding anything extra you need and removing anything in particular you hate. :+1:
 
 ---
 
@@ -78,6 +78,10 @@ bash .gitrepos.sh
 ```
 **Remember to change me to you, if you want.**
 
+### Cleanup after yourself, a bit
+```sh
+bash .cleanup.sh
+```
 ---
 
 ## Contributing
