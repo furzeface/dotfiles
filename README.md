@@ -25,28 +25,40 @@ cd; curl -#L https://github.com/furzeface/dotfiles/tarball/master | tar -xzv --s
 ```sh
 bash .osx.sh
 ```
+**This gets rid of a load of defaults, sets other things. You may need to restart.**
 
 #### Install [zsh](http://ohmyz.sh)
 ```sh
 bash .zsh.sh
 ```
+**Immediately start using it instead of the standard shell. Remember to add things from `.aliases` to `~/.zshrc`, or find a way to automate this.**
+
+---
 
 #### Install [Homebrew](http://brew.sh) then use it to install [Git](http://git-scm.com), [Node](http://nodejs.org) and [Brew Cask](http://caskroom.io)
 ```sh
 bash .brew.sh
 ```
 
-#### Install apps with [Brew Cask](http://caskroom.io)
+**Now take a break, grab a drink, then [set up SSH keys](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).**
+
+---
+
+#### Install core productivity apps, dev tools, browsers, helper apps with [Brew Cask](http://caskroom.io)
 ```sh
 bash .cask.sh
 ```
-Installs core productivity apps, dev tools, browsers, helper apps.
+**Now close Safari and start using Chrome.**
+
+---
 
 #### Install global Node modules with [NPM](https://www.npmjs.org)
 ```sh
 bash .npm.sh
 ```
-Installs some global Node packages for development.
+**Remember to log in as yourself, if you’re not me.**
+
+---
 
 #### Create standard set of directories
 ```sh
@@ -57,6 +69,7 @@ bash .mkdir.sh
 ```sh
 bash .gitrepos.sh
 ```
+**Remember to change me to you, if you want.**
 
 # Contributing
 [Suggestions](https://github.com/furzeface/dotfiles/issues) [welcome](https://github.com/furzeface/dotfiles/pulls).
