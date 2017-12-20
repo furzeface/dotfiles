@@ -46,21 +46,16 @@ Installs core productivity apps, dev tools, browsers, helper apps.
 ```sh
 bash .npm.sh
 ```
-Installs some global Node packages.
+Installs some global Node packages for development.
 
 #### Create standard set of directories
 ```sh
 bash .mkdir.sh
 ```
 
-#### Clone some GitHub repositories
+#### Clone some of my GitHub repositories
 ```sh
 bash .gitrepos.sh
-```
-
-#### Finally, set some sensible defaults for the installed apps
-```sh
-bash .init.sh
 ```
 
 # Contributing
