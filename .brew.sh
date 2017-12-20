@@ -13,6 +13,9 @@ brew install git-lfs
 # Install Node.js - this installs `npm` too, using the recommended installation method
 brew install node
 
+# Install Yarn cos Yarn’s the cool new thing
+brew install yarn --without-node
+
 # Install Brew Cask for managing other apps
 brew install caskroom/cask/brew-cask
 
