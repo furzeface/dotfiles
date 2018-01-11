@@ -16,6 +16,9 @@ brew install node
 # Install Yarn cos Yarn’s the cool new thing
 brew install yarn --without-node
 
+# Wget is the best
+brew install wget
+
 # Install Brew Cask for managing other apps
 brew install caskroom/cask/brew-cask
 
