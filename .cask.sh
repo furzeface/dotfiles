@@ -27,6 +27,9 @@ brew cask install --appdir="/Applications" docker-toolbox
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" vagrant
+brew cask install --appdir="/Applications" vagrant-manager
+brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" visual-studio-code
 
 # Additional apps
