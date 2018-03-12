@@ -7,6 +7,7 @@ sudo xcodebuild -license
 
 # Install Git
 brew install git
+brew install git-extras
 brew install git-flow
 brew install git-lfs
 
