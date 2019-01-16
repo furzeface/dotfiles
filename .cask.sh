@@ -23,6 +23,7 @@ brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
+brew cask install --appdir="/Applications" local-by-flywheel
 brew cask install --appdir="/Applications" sketch
 brew cask install --appdir="/Applications" sketch-toolbox
 brew cask install --appdir="/Applications" virtualbox
