@@ -5,6 +5,7 @@
 # Core Functionality
 echo Installing core apps…
 brew cask install --appdir="/Applications" caffeine
+brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" evernote
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" google-drive
@@ -14,23 +15,19 @@ brew cask install --appdir="/Applications" spectacle
 # Browsers
 echo Installing browsers…
 brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" firefox-nightly
 brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" google-chrome-canary
 
 # Development apps
 echo Installing dev apps…
-brew cask install --appdir="/Applications" adobe-creative-cloud
 brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" docker
-brew cask install --appdir="/Applications" docker-toolbox
 brew cask install --appdir="/Applications" filezilla
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
-brew cask install --appdir="/Applications" vagrant
-brew cask install --appdir="/Applications" vagrant-manager
+brew cask install --appdir="/Applications" sketch
+brew cask install --appdir="/Applications" sketch-toolbox
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" visual-studio-code
+brew cask install --appdir="/Applications" zeplin
 
 # Additional apps
 echo Installing some additional apps…
