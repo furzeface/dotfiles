@@ -10,6 +10,7 @@ brew install git
 brew install git-extras
 brew install git-flow
 brew install git-lfs
+brew install git-secrets
 
 # Install Node.js - this installs `npm` too, using the recommended installation method
 brew install node
