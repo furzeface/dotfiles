@@ -15,6 +15,8 @@ brew install git-secrets
 # Install Node.js - this installs `npm` too, using the recommended installation method
 brew install node
 
+brew install nvm
+
 # Install Yarn cos Yarn’s the cool new thing
 brew install yarn --without-node
 
