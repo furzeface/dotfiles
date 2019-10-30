@@ -19,17 +19,15 @@ brew cask install --appdir="/Applications" google-chrome
 
 # Development apps
 echo Installing dev apps…
-brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" filezilla
+brew cask install --appdir="/Applications" font-fira-code
 brew cask install --appdir="/Applications" imagealpha
 brew cask install --appdir="/Applications" imageoptim
-brew cask install --appdir="/Applications" local-by-flywheel
 brew cask install --appdir="/Applications" postman
 brew cask install --appdir="/Applications" sketch
 brew cask install --appdir="/Applications" sketch-toolbox
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" visual-studio-code
-brew cask install --appdir="/Applications" zeplin
 
 # Additional apps
 echo Installing some additional apps…
